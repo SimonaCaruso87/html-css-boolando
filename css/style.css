@@ -156,6 +156,17 @@ main .product-card .card-up .tags{
     text-decoration: line-through;
 }
 
+.tag-price{
+    padding-left: 4px;
+    color:white;
+    background-color: red;
+}
+
+.tag-sostenibilita{
+    padding-left: 4px;
+    color:white;
+    background-color: green;
+}
 
 /*
  FOOTER
