@@ -168,6 +168,25 @@ main .product-card .card-up .tags{
     background-color: green;
 }
 
+.secondary-photo{
+    display: none;
+}
+/* PRENDIMI TUTTE LE IMG CHE HANNO COME CLASSE 
+SECONDARY-PHOTO QUANDO VADO IN OVER SU CARD-UP 
+E MOSTRAMELA */
+
+/* DARE INLINE BLOCK PER LA VISUALIZZAZIONE COSì 
+SCOMPARIRà LA LINEA CREATA DALL'INLILE */
+
+.card-up:hover img.secondary-photo{
+    display:inline-block;
+    
+}
+
+.card-up:hover img.primary-photo{H7J
+    display:none ;
+}
+
 /*
  FOOTER
  */
